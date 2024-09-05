@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		03F1D0A32C88B17400AEC9A3 /* SortedRecipesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0A22C88B17400AEC9A3 /* SortedRecipesApp.swift */; };
-		03F1D0A52C88B17400AEC9A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0A42C88B17400AEC9A3 /* ContentView.swift */; };
+		03F1D0A52C88B17400AEC9A3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0A42C88B17400AEC9A3 /* HomeView.swift */; };
 		03F1D0A72C88B17700AEC9A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F1D0A62C88B17700AEC9A3 /* Assets.xcassets */; };
 		03F1D0AA2C88B17700AEC9A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F1D0A92C88B17700AEC9A3 /* Preview Assets.xcassets */; };
-		03F1D0B42C88B17700AEC9A3 /* SortedRecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0B32C88B17700AEC9A3 /* SortedRecipesTests.swift */; };
+		03F1D0B42C88B17700AEC9A3 /* SRNetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0B32C88B17700AEC9A3 /* SRNetworkManagerTests.swift */; };
 		03F1D0BE2C88B17700AEC9A3 /* SortedRecipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0BD2C88B17700AEC9A3 /* SortedRecipesUITests.swift */; };
 		03F1D0C02C88B17700AEC9A3 /* SortedRecipesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0BF2C88B17700AEC9A3 /* SortedRecipesUITestsLaunchTests.swift */; };
+		03F1D0D02C89C25800AEC9A3 /* SRRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0CF2C89C25800AEC9A3 /* SRRecipe.swift */; };
+		03F1D0D22C89C50000AEC9A3 /* SRNetworkUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0D12C89C50000AEC9A3 /* SRNetworkUrl.swift */; };
+		03F1D0D42C89C75300AEC9A3 /* SRNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0D32C89C75300AEC9A3 /* SRNetworkError.swift */; };
+		03F1D0D62C89C83E00AEC9A3 /* SRNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0D52C89C83E00AEC9A3 /* SRNetworkManager.swift */; };
+		03F1D0DB2C89FB4E00AEC9A3 /* SRDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0DA2C89FB4E00AEC9A3 /* SRDateFormatter.swift */; };
+		03F1D0DD2C89FDC900AEC9A3 /* SRRecipeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0DC2C89FDC900AEC9A3 /* SRRecipeCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +42,20 @@
 /* Begin PBXFileReference section */
 		03F1D09F2C88B17400AEC9A3 /* SortedRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortedRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F1D0A22C88B17400AEC9A3 /* SortedRecipesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedRecipesApp.swift; sourceTree = "<group>"; };
-		03F1D0A42C88B17400AEC9A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03F1D0A42C88B17400AEC9A3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		03F1D0A62C88B17700AEC9A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03F1D0A92C88B17700AEC9A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		03F1D0AF2C88B17700AEC9A3 /* SortedRecipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SortedRecipesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		03F1D0B32C88B17700AEC9A3 /* SortedRecipesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedRecipesTests.swift; sourceTree = "<group>"; };
+		03F1D0B32C88B17700AEC9A3 /* SRNetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRNetworkManagerTests.swift; sourceTree = "<group>"; };
 		03F1D0B92C88B17700AEC9A3 /* SortedRecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SortedRecipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F1D0BD2C88B17700AEC9A3 /* SortedRecipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedRecipesUITests.swift; sourceTree = "<group>"; };
 		03F1D0BF2C88B17700AEC9A3 /* SortedRecipesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedRecipesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		03F1D0CF2C89C25800AEC9A3 /* SRRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRRecipe.swift; sourceTree = "<group>"; };
+		03F1D0D12C89C50000AEC9A3 /* SRNetworkUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRNetworkUrl.swift; sourceTree = "<group>"; };
+		03F1D0D32C89C75300AEC9A3 /* SRNetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRNetworkError.swift; sourceTree = "<group>"; };
+		03F1D0D52C89C83E00AEC9A3 /* SRNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRNetworkManager.swift; sourceTree = "<group>"; };
+		03F1D0DA2C89FB4E00AEC9A3 /* SRDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRDateFormatter.swift; sourceTree = "<group>"; };
+		03F1D0DC2C89FDC900AEC9A3 /* SRRecipeCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRRecipeCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +106,11 @@
 		03F1D0A12C88B17400AEC9A3 /* SortedRecipes */ = {
 			isa = PBXGroup;
 			children = (
+				03F1D0D92C89FB3D00AEC9A3 /* Extensions */,
 				03F1D0A22C88B17400AEC9A3 /* SortedRecipesApp.swift */,
-				03F1D0A42C88B17400AEC9A3 /* ContentView.swift */,
+				03F1D0CD2C89C1CC00AEC9A3 /* Network */,
+				03F1D0CC2C89C1C400AEC9A3 /* Model */,
+				03F1D0CE2C89C1D600AEC9A3 /* View */,
 				03F1D0A62C88B17700AEC9A3 /* Assets.xcassets */,
 				03F1D0A82C88B17700AEC9A3 /* Preview Content */,
 			);
@@ -113,7 +128,7 @@
 		03F1D0B22C88B17700AEC9A3 /* SortedRecipesTests */ = {
 			isa = PBXGroup;
 			children = (
-				03F1D0B32C88B17700AEC9A3 /* SortedRecipesTests.swift */,
+				03F1D0D82C89E57500AEC9A3 /* Network */,
 			);
 			path = SortedRecipesTests;
 			sourceTree = "<group>";
@@ -125,6 +140,49 @@
 				03F1D0BF2C88B17700AEC9A3 /* SortedRecipesUITestsLaunchTests.swift */,
 			);
 			path = SortedRecipesUITests;
+			sourceTree = "<group>";
+		};
+		03F1D0CC2C89C1C400AEC9A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03F1D0CF2C89C25800AEC9A3 /* SRRecipe.swift */,
+				03F1D0DC2C89FDC900AEC9A3 /* SRRecipeCategory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03F1D0CD2C89C1CC00AEC9A3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				03F1D0D52C89C83E00AEC9A3 /* SRNetworkManager.swift */,
+				03F1D0D32C89C75300AEC9A3 /* SRNetworkError.swift */,
+				03F1D0D12C89C50000AEC9A3 /* SRNetworkUrl.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		03F1D0CE2C89C1D600AEC9A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03F1D0A42C88B17400AEC9A3 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03F1D0D82C89E57500AEC9A3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				03F1D0B32C88B17700AEC9A3 /* SRNetworkManagerTests.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		03F1D0D92C89FB3D00AEC9A3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				03F1D0DA2C89FB4E00AEC9A3 /* SRDateFormatter.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +315,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03F1D0A52C88B17400AEC9A3 /* ContentView.swift in Sources */,
+				03F1D0A52C88B17400AEC9A3 /* HomeView.swift in Sources */,
+				03F1D0D62C89C83E00AEC9A3 /* SRNetworkManager.swift in Sources */,
+				03F1D0D02C89C25800AEC9A3 /* SRRecipe.swift in Sources */,
 				03F1D0A32C88B17400AEC9A3 /* SortedRecipesApp.swift in Sources */,
+				03F1D0DD2C89FDC900AEC9A3 /* SRRecipeCategory.swift in Sources */,
+				03F1D0DB2C89FB4E00AEC9A3 /* SRDateFormatter.swift in Sources */,
+				03F1D0D22C89C50000AEC9A3 /* SRNetworkUrl.swift in Sources */,
+				03F1D0D42C89C75300AEC9A3 /* SRNetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03F1D0B42C88B17700AEC9A3 /* SortedRecipesTests.swift in Sources */,
+				03F1D0B42C88B17700AEC9A3 /* SRNetworkManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
