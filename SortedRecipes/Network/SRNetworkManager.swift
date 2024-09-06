@@ -17,6 +17,7 @@ class GCNetworkManager {
         self.urlString = urlString
     }
     
+    // Completion handler
     func getRecipeList(completion: @escaping (_ recipes: [SRRecipe]?, _ error: SRNetworkError?) -> Void) {
         guard let url = URL(string: SRNetworkUrl.recipeList) else {
             completion(nil, SRNetworkError.invalidURL)

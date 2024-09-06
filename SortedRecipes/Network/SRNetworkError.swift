@@ -9,7 +9,6 @@ import Foundation
 
 enum SRNetworkError: Error {
     case invalidURL
-    case unknown
     case noData
     case decodingError
 }

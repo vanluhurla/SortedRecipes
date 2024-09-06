@@ -8,5 +8,5 @@
 import Foundation
  
 struct SRNetworkUrl {
-    static let recipeList = "https://api.jsonbin.io/v3/b/63cee902ace6f33a22c64d8a"
+    static let recipeList = "https://api.jsonbin.io/v3/b/63cee902ace6f33a22c64d8a" //API endpoint
 }

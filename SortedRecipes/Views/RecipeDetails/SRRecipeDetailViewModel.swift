@@ -8,7 +8,8 @@
 import SwiftUI
 
 class SRRecipeDetailViewModel: ObservableObject {
-    @Published var recipe: SRRecipe? // Holds the details of the selected recipe
+    
+    @Published var recipe: SRRecipe?
     
     init(recipe: SRRecipe) {
         self.recipe = recipe

@@ -15,7 +15,7 @@ struct SRRecipeResponse: Codable {
     let recipes: [SRRecipe]
 }
 
-struct SRRecipe: Codable {
+struct SRRecipe: Codable, Hashable {
     let image: String
     let title: String
     let category: String
