@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		03F1D0A32C88B17400AEC9A3 /* SortedRecipesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0A22C88B17400AEC9A3 /* SortedRecipesApp.swift */; };
-		03F1D0A52C88B17400AEC9A3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0A42C88B17400AEC9A3 /* HomeView.swift */; };
+		03F1D0A52C88B17400AEC9A3 /* SRHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0A42C88B17400AEC9A3 /* SRHomeView.swift */; };
 		03F1D0A72C88B17700AEC9A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F1D0A62C88B17700AEC9A3 /* Assets.xcassets */; };
 		03F1D0AA2C88B17700AEC9A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F1D0A92C88B17700AEC9A3 /* Preview Assets.xcassets */; };
 		03F1D0B42C88B17700AEC9A3 /* SRNetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0B32C88B17700AEC9A3 /* SRNetworkManagerTests.swift */; };
@@ -20,6 +20,11 @@
 		03F1D0D62C89C83E00AEC9A3 /* SRNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0D52C89C83E00AEC9A3 /* SRNetworkManager.swift */; };
 		03F1D0DB2C89FB4E00AEC9A3 /* SRDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0DA2C89FB4E00AEC9A3 /* SRDateFormatter.swift */; };
 		03F1D0DD2C89FDC900AEC9A3 /* SRRecipeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0DC2C89FDC900AEC9A3 /* SRRecipeCategory.swift */; };
+		03F1D0E22C8A007200AEC9A3 /* SRCategoryCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0E12C8A007200AEC9A3 /* SRCategoryCarouselView.swift */; };
+		03F1D0E52C8A15BB00AEC9A3 /* SRHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0E42C8A15BB00AEC9A3 /* SRHomeViewModel.swift */; };
+		03F1D0E72C8A16F000AEC9A3 /* SRRecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0E62C8A16F000AEC9A3 /* SRRecipeListView.swift */; };
+		03F1D0EA2C8A336900AEC9A3 /* SRRecipeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0E92C8A336900AEC9A3 /* SRRecipeDetailViewModel.swift */; };
+		03F1D0EC2C8A338800AEC9A3 /* SRRecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1D0EB2C8A338800AEC9A3 /* SRRecipeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +47,7 @@
 /* Begin PBXFileReference section */
 		03F1D09F2C88B17400AEC9A3 /* SortedRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortedRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F1D0A22C88B17400AEC9A3 /* SortedRecipesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedRecipesApp.swift; sourceTree = "<group>"; };
-		03F1D0A42C88B17400AEC9A3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		03F1D0A42C88B17400AEC9A3 /* SRHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRHomeView.swift; sourceTree = "<group>"; };
 		03F1D0A62C88B17700AEC9A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03F1D0A92C88B17700AEC9A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		03F1D0AF2C88B17700AEC9A3 /* SortedRecipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SortedRecipesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +61,11 @@
 		03F1D0D52C89C83E00AEC9A3 /* SRNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRNetworkManager.swift; sourceTree = "<group>"; };
 		03F1D0DA2C89FB4E00AEC9A3 /* SRDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRDateFormatter.swift; sourceTree = "<group>"; };
 		03F1D0DC2C89FDC900AEC9A3 /* SRRecipeCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRRecipeCategory.swift; sourceTree = "<group>"; };
+		03F1D0E12C8A007200AEC9A3 /* SRCategoryCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRCategoryCarouselView.swift; sourceTree = "<group>"; };
+		03F1D0E42C8A15BB00AEC9A3 /* SRHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRHomeViewModel.swift; sourceTree = "<group>"; };
+		03F1D0E62C8A16F000AEC9A3 /* SRRecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRRecipeListView.swift; sourceTree = "<group>"; };
+		03F1D0E92C8A336900AEC9A3 /* SRRecipeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRRecipeDetailViewModel.swift; sourceTree = "<group>"; };
+		03F1D0EB2C8A338800AEC9A3 /* SRRecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRRecipeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +120,7 @@
 				03F1D0A22C88B17400AEC9A3 /* SortedRecipesApp.swift */,
 				03F1D0CD2C89C1CC00AEC9A3 /* Network */,
 				03F1D0CC2C89C1C400AEC9A3 /* Model */,
-				03F1D0CE2C89C1D600AEC9A3 /* View */,
+				03F1D0CE2C89C1D600AEC9A3 /* Views */,
 				03F1D0A62C88B17700AEC9A3 /* Assets.xcassets */,
 				03F1D0A82C88B17700AEC9A3 /* Preview Content */,
 			);
@@ -161,12 +171,13 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
-		03F1D0CE2C89C1D600AEC9A3 /* View */ = {
+		03F1D0CE2C89C1D600AEC9A3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				03F1D0A42C88B17400AEC9A3 /* HomeView.swift */,
+				03F1D0DE2C8A002A00AEC9A3 /* Home */,
+				03F1D0E82C8A334400AEC9A3 /* RecipeDetails */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		03F1D0D82C89E57500AEC9A3 /* Network */ = {
@@ -183,6 +194,34 @@
 				03F1D0DA2C89FB4E00AEC9A3 /* SRDateFormatter.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		03F1D0DE2C8A002A00AEC9A3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				03F1D0E32C8A153000AEC9A3 /* SRCategoryCarousel */,
+				03F1D0A42C88B17400AEC9A3 /* SRHomeView.swift */,
+				03F1D0E62C8A16F000AEC9A3 /* SRRecipeListView.swift */,
+				03F1D0E42C8A15BB00AEC9A3 /* SRHomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		03F1D0E32C8A153000AEC9A3 /* SRCategoryCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				03F1D0E12C8A007200AEC9A3 /* SRCategoryCarouselView.swift */,
+			);
+			path = SRCategoryCarousel;
+			sourceTree = "<group>";
+		};
+		03F1D0E82C8A334400AEC9A3 /* RecipeDetails */ = {
+			isa = PBXGroup;
+			children = (
+				03F1D0EB2C8A338800AEC9A3 /* SRRecipeDetailView.swift */,
+				03F1D0E92C8A336900AEC9A3 /* SRRecipeDetailViewModel.swift */,
+			);
+			path = RecipeDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,13 +354,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03F1D0A52C88B17400AEC9A3 /* HomeView.swift in Sources */,
+				03F1D0EA2C8A336900AEC9A3 /* SRRecipeDetailViewModel.swift in Sources */,
+				03F1D0EC2C8A338800AEC9A3 /* SRRecipeDetailView.swift in Sources */,
+				03F1D0A52C88B17400AEC9A3 /* SRHomeView.swift in Sources */,
 				03F1D0D62C89C83E00AEC9A3 /* SRNetworkManager.swift in Sources */,
 				03F1D0D02C89C25800AEC9A3 /* SRRecipe.swift in Sources */,
 				03F1D0A32C88B17400AEC9A3 /* SortedRecipesApp.swift in Sources */,
+				03F1D0E22C8A007200AEC9A3 /* SRCategoryCarouselView.swift in Sources */,
 				03F1D0DD2C89FDC900AEC9A3 /* SRRecipeCategory.swift in Sources */,
 				03F1D0DB2C89FB4E00AEC9A3 /* SRDateFormatter.swift in Sources */,
+				03F1D0E72C8A16F000AEC9A3 /* SRRecipeListView.swift in Sources */,
 				03F1D0D22C89C50000AEC9A3 /* SRNetworkUrl.swift in Sources */,
+				03F1D0E52C8A15BB00AEC9A3 /* SRHomeViewModel.swift in Sources */,
 				03F1D0D42C89C75300AEC9A3 /* SRNetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
