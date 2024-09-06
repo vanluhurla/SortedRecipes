@@ -13,6 +13,10 @@ class SRHomeViewModel: ObservableObject {
     @Published var filteredRecipes: [SRRecipe] = []
     @Published var selectedCategory: SRRecipeCategory?
     
+    var featuredRecipes: [SRRecipe] {
+        return allRecipes.filter { $0.featured }
+    }
+    
     private let networkManager: GCNetworkManager
     
     init(networkManager: GCNetworkManager = GCNetworkManager(urlString: SRNetworkUrl.recipeList)) {
@@ -42,5 +46,9 @@ class SRHomeViewModel: ObservableObject {
     
     func getRecipesForCategory(_ category: SRRecipeCategory) -> [SRRecipe] {
         return filteredRecipes
+    }
+    
+    func getFeaturedRecipes() -> [SRRecipe] {
+        return allRecipes.filter { $0.featured }
     }
 }

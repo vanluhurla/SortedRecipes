@@ -10,15 +10,15 @@ import XCTest
 
 final class GCNetworkManagerTests: XCTestCase {
     
-    var networkManager: GCNetworkManager!
+    var sut: GCNetworkManager!
     
     override func setUpWithError() throws {
-        // Initialising the network manager with a real URL and shared URLSession
-        networkManager = GCNetworkManager(urlSession: URLSession.shared, urlString: SRNetworkUrl.recipeList)
+       
+        sut = GCNetworkManager(urlSession: URLSession.shared, urlString: SRNetworkUrl.recipeList)
     }
     
     override func tearDownWithError() throws {
-        networkManager = nil
+        sut = nil
     }
     
     func testGetRecipeList_WhenDataIsReceived_ReturnsRecipes() {
@@ -26,7 +26,7 @@ final class GCNetworkManagerTests: XCTestCase {
         let expectation = self.expectation(description: "Fetching recipes from the API")
         
         // Act
-        networkManager.getRecipeList { recipes, error in
+        sut.getRecipeList { recipes, error in
             // Assert
             XCTAssertNotNil(recipes, "Expected recipes but received nil.")
             XCTAssertNil(error, "Expected no error but received: \(String(describing: error))")
